@@ -1,0 +1,10 @@
+.DS_Store
+.idea
+.vscode
+node_modules/
+public/
+dist/
+npm-debug.log
+test/unit/coverage
+test/e2e/reports
+selenium-debug.log
