@@ -5,11 +5,11 @@ demo 虽小,也算是五脏俱全了.
 >只是一个development模式的项目,并没有去配置production所需要的东西
 
 ### 依赖
-因为 服务器端 使用了 es6(部分 node 还未支持的) 与 es7,需要将其转为 es5 去运行, 所以需要全局安装 `babel-cli`. 如果已安装,忽略这里.
+因为 服务器端 使用了 es6(部分 node 还未支持的) 与 es7,需要将其转为 es5 去运行, 所以需要安装 `babel-cli`. 这里会使用本地的安装的`babel-cli`.
 > 虽然是个 demo, 服务端也就使用了 import 与 async …… 有点多此一举的感觉
 
 ```
-  sudo npm install -g babel-cli
+    npm install
 ```
 
 ### 启动

@@ -4,7 +4,7 @@
   "description": "vue demo",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node app.js"
+    "start": "./node_modules/babel-cli/bin/babel-node.js app.js"
   },
   "author": "",
   "license": "ISC",
